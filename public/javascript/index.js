@@ -56,7 +56,25 @@ window.addEventListener('load', () => {
       .catch(err => console.log(err))
   });
 
+
+
   document.getElementById('delete-one').addEventListener('click', function (event) {
+
+  //   const characterId = document.getElementById("borraUno")
+
+  //   charactersAPI.deleteOneRegister(characterId)
+  //     .then(res => {
+        
+  //       console.log(res)
+  //     })
+  //     .catch(err => console.log(err))
+  // });
+
+
+
+
+
+
 
   });
 
@@ -67,7 +85,6 @@ window.addEventListener('load', () => {
   document.getElementById('new-character-form').addEventListener('submit', function (event) {
 
   });
-});
 
 
 
